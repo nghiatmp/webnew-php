@@ -1,0 +1,92 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: auto;
+	width: 980px;
+}
+header{
+	height: 100px;
+	background-color: #4B90EB;
+	text-align: center;
+
+}
+header a{
+	text-decoration: none;
+	line-height: 100px;
+}
+div.clearfix{
+	clear: both;
+}
+div.menu{
+	height: 50px;
+	background-color:  #46B6E7;
+}
+div.menu ul{
+	line-height: 50px;
+}
+div.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+	
+}
+div.menu ul li a{
+	color: black;
+}
+div.menu ul li a:hover{
+	color:blue;
+}
+div.menu ul li ul.table-menu{
+	display: none;
+	background-color:#C3EAF6;
+	width: 150px;
+}
+div.menu ul li:hover >ul.table-menu{
+	display: block;
+	position: absolute;
+}
+div.content{
+	background-color: #ECFBFB;
+/* 	height: 400px; */
+}
+div.content #form-login{
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	padding-top: 50px;
+}
+div.content #form-login tr td{
+	padding : 15px;
+}
+
+footer{
+	text-align: center;
+	height: 100px;
+	background-color: #9FDEF1;
+}
+footer p{
+	line-height: 100px;
+	font-size: 17px;
+}
+/* css register */
+div.content #form-register{
+	margin-left: 300px;
+
+}
+div.content #form-register h2{
+	padding: 15px 0px 20px 115px;
+}
+div.content #form-register tr td{
+	padding: 15px;
+}
+div.content #form-register table select{
+	padding: 2px;
+}
+
+
+

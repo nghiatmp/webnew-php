@@ -1,0 +1,270 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: auto;
+	width: 980px;
+}
+header{
+	height: 100px;
+	background-color: #4B90EB;
+	text-align: center;
+	background-image: url('images/note8.jpg');
+
+}
+header a{
+	text-decoration: none;
+	line-height: 100px;
+}
+div.clearfix{
+	clear: both;
+}
+div.menu{
+	height: 50px;
+	background-color:  #46B6E7;
+}
+div.menu ul{
+	line-height: 50px;
+}
+div.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+	padding: 0px 15px;
+	
+}
+div.menu ul li a{
+	color: black;
+}
+div.menu ul li a:hover{
+	color:blue;
+}
+div.menu ul li ul.table-menu{
+	display: none;
+	background-color:#C3EAF6;
+	width: 100px;
+	line-height: 25px;
+}
+div.menu ul li ul.table-menu li{
+	padding: 3px 5px;
+	margin: 0;
+	font-size: 14px;
+
+}
+div.menu ul li:hover >ul.table-menu{
+	display: block;
+	position: absolute;
+}
+div.content{
+	background-color: #ECFBFB;
+}
+div.content div.left{
+	width: 74%;
+	float: left;
+	border-right: 1px solid black;
+}
+div.content div.left div.news{
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+div.content div.left div.news h3{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+div.content div.left div.news div.category{
+	border-bottom: 1px solid gray;
+	color: red;
+	font-size: 20px;
+	padding: 10px 0px;
+	font-family: "Times New Roman";
+}
+div.content div.left div.news div.category a{
+	/* border: 1px solid red; */
+	padding: 2px 10px ;
+	background-color: #9FDEF1;
+	border-radius: 5px;
+}
+div.content div.left div.news a{
+	color: black;
+}
+div.content div.left div.news a:hover{
+	color: #5B48E4;
+}
+div.content div.left div.news div.article{
+	width: 450px;
+	text-align: justify;
+	float: left;
+	border-right: 1px solid black;
+}
+div.content div.left div.news div.list-article{
+	float: right;
+	width: 230px;
+}
+div.content div.left div.news div.list-article ul{
+	padding: 15px;
+}
+
+div.content div.left div.news img{
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+div.content div.left div.news p{
+	padding-right: 10px;
+}
+div.content div.right{
+	width: 25%;
+	float: right;
+}
+div.content div.right div.adv{
+	width: 200px;
+	/* height: 250px; */
+	margin: 10px;
+	border: 1px solid black;
+	margin-top: 50px;
+}
+div.content div.right div.adv img{
+	width: 100%;
+}
+footer{
+	text-align: center;
+	/* height: 100px; */
+	background-color: #9FDEF1;
+}
+footer p{
+	/* line-height: 100px; */
+	font-size: 13px;
+}
+footer div.menufooter{
+	height: 50px;
+	border-bottom: 1px solid black;
+
+}
+footer div.menufooter ul li{
+	display: inline-block;
+	padding: 5px 20px;
+	margin: auto;
+	margin-top: 10px;
+}
+footer div.menufooter ul li a{
+	color: black;
+}
+footer div.menufooter ul li a:hover{
+	color: #4910F1;
+	text-decoration: underline;
+}
+footer div.idea{
+	width: 840px;
+	margin: auto;
+	padding-top: 20px;
+
+}
+
+/*  css category */
+div.content div.left div.pagination{
+	width: 400px;
+	margin: auto;	
+}
+div.content div.left div.pagination ul{
+	text-align: center;
+}
+div.content div.left div.pagination ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 2px;
+	border: 1px solid black;
+
+}
+div.content div.left div.pagination ul li a:hover{
+	text-decoration: underline;
+	color: #5B6DE8;
+}
+
+
+/* css detail */
+div.content div.left div.detail-article h2{
+	margin: 15px 0px 15px 5px;
+}
+div.content div.left div.detail-article p{
+	margin: 10px 10px;
+	text-indent: 5px;
+	padding-bottom: 10px;	
+}
+div.content div.left div.detail-article img{
+	width: 300px;
+	margin-left: 35px;
+}
+div.content div.left div.different-article p{
+	margin: 15px;
+}
+div.content div.left div.different-article ul li{
+	margin: 15px 20px;
+}
+div.content div.left div.different-article ul li a{
+	color: #949091;
+}
+div.content div.left div.different-article ul li a:hover{
+	color: blue;
+}
+div.content div.left div.comment fieldset{
+	margin: 20px;
+}
+div.content div.left div.comment form{
+	margin: 20px;
+}
+div.content div.left div.comment form td{
+	padding: 10px;
+}
+div.content div.left div.comment form textarea{
+	width: 300px;
+	height: 150px;
+	padding: 10px;
+}
+div.content div.left div.show-comment div.comm {
+	border: 1px solid black;
+	margin: 5px;
+}
+div.content div.left div.show-comment div.comm img{
+	width: 60px;
+	margin: 20px;
+	float: left;
+}
+div.content div.left div.show-comment div.mess{
+	float: left;
+}
+div.content div.left div.show-comment div.mess p{
+	padding: 10px 6px 6px 6px;
+}
+
+
+/* css register */
+div.content #form-register{
+	margin-left: 300px;
+
+}
+div.content #form-register h2{
+	padding: 15px 0px 20px 115px;
+}
+div.content #form-register tr td{
+	padding: 15px;
+}
+div.content #form-register table select{
+	padding: 2px;
+}
+/* css login */
+div.content #form-login{
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	padding-top: 50px;
+}
+div.content #form-login tr td{
+	padding : 15px;
+}
+
+
